@@ -1,6 +1,7 @@
 pub mod day1;
 pub mod day2;
 pub mod day3;
+pub mod day4;
 
 #[cfg(test)]
 mod test {
@@ -20,5 +21,11 @@ mod test {
     fn day3() {
         use crate::day3;
         day3::day3();
+    }
+
+    #[test]
+    fn day4() {
+        use crate::day4;
+        day4::day4();
     }
 }
