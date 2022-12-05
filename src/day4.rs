@@ -1,4 +1,3 @@
-#![feature(str_split_as_str)]
 
 pub fn day4() {
     use std::fs;
